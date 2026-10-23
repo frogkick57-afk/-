@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная | Бобры</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Бобры.</h1>
+        <nav>
+            <a href="index.html" class="active">Главная</a>
+            <a href="species.html" class="">Виды</a>
+            <a href="facts.html" class="">Факты</a>
+        </nav>
+    </header>
+    <main>
+        
+<div class="card">
+    <h2>Архитекторы природы</h2>
+    <p>Бобры (лат. Castor) — это удивительные полуводные млекопитающие, которые славятся своим талантом к строительству. Они способны изменять экосистему вокруг себя, возводя плотины и создавая целые пруды.</p>
+    
+    <div class="image-container">
+        <img id="beaverImage" src="https://images.unsplash.com/photo-1601269007425-4c071d374464?auto=format&fit=crop&w=800&q=80" alt="Фотография бобра">
+        <button id="randomImageBtn" class="btn btn-overlay">Загрузить другое фото</button>
+    </div>
+</div>
+<div class="card">
+    <h2>Интерактив</h2>
+    <p>Хотите узнать что-то новое прямо сейчас?</p>
+    <button id="factButton" class="btn">Случайный факт о бобрах</button>
+    <p id="factDisplay" class="fact-box"></p>
+</div>
+
+    </main>
+    <footer>
+        <p>© 2026 Проект про бобров. Создано с акцентом на минимализм.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
